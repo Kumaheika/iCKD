@@ -1177,7 +1177,7 @@ a > span.black {
 
 /* line 168, ../sass/main.scss */
 .demo {
-  width: 100%;
+  width: 960px;
   height: auto;
   margin: 0 auto;
 }
@@ -1246,13 +1246,13 @@ a > span.black {
 @media screen and (min-width: 992px) {
   /* line 168, ../sass/main.scss */
   .demo {
-    width: 1024px;
+    width: 960px;
   }
 }
 @media screen and (min-width: 1200px) {
   /* line 168, ../sass/main.scss */
   .demo {
-    width: 1440px;
+    width: 960px;
   }
 }
 
@@ -1466,4 +1466,7 @@ h2.title.white {
 /* line 414, ../sass/main.scss */
 .warringword.active {
   display: inline-block;
+}
+body {
+  background: #DDD;
 }
